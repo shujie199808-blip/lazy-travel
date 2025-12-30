@@ -1,0 +1,5 @@
+<view class="card">
+  <view class="title">欢迎来到 Lazy Travel</view>
+  <view class="subtitle">体验简洁的微信小程序示例。</view>
+  <button class="primary" bindtap="goForm">开始填写</button>
+</view>

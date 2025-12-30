@@ -1,0 +1,7 @@
+<view class="card">
+  <view class="title">提交成功</view>
+  <view class="subtitle">感谢您的填写！</view>
+  <view class="info">姓名：{{name}}</view>
+  <view class="info">联系方式：{{contact}}</view>
+  <button class="primary" bindtap="goHome">返回首页</button>
+</view>
