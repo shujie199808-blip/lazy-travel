@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/form/index",
+    "pages/success/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "Lazy Travel",
+    "navigationBarBackgroundColor": "#ff7a00",
+    "navigationBarTextStyle": "white"
+  }
+}

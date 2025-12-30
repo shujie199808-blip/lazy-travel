@@ -1,0 +1,31 @@
+<view class="page">
+  <view class="hero card">
+    <view class="eyebrow">Lazy Travel</view>
+    <view class="hero-title">不用做攻略，也能玩得很懂行</view>
+    <view class="hero-subtitle">
+      我们帮你定制欧洲、澳新、土耳其、新加坡、迪拜的专属自由行行程
+    </view>
+    <button class="primary hero-btn" bindtap="goForm">我想定制一次旅行</button>
+  </view>
+
+  <scroll-view class="mood-tags" scroll-x enable-flex>
+    <view class="tag" wx:for="{{moodTags}}" wx:key="tag">{{item}}</view>
+  </scroll-view>
+
+  <view class="section-title">目的地精选</view>
+  <view class="waterfall">
+    <view
+      class="dest-card"
+      wx:for="{{destinations}}"
+      wx:key="preset"
+      data-preset="{{item.preset}}"
+      bindtap="goPreset"
+    >
+      <view class="cover" style="background: {{item.coverColor}};"></view>
+      <view class="dest-title">{{item.title}}</view>
+      <view class="dest-subtitle">{{item.subtitle}}</view>
+    </view>
+  </view>
+
+  <view class="cta-fab" bindtap="goForm">定制一条我的旅行路线</view>
+</view>
